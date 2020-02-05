@@ -1,7 +1,7 @@
 body {
   display: block;
   margin: auto;
-  background-color: rgb(102, 245, 197);
+  background-color: rgb(102, 245, 197)
 }
 
 /*primero en el móvil (mobile first)*/
@@ -18,13 +18,19 @@ text-align: center;
   display: none;
   position: absolute;
 }
+
 nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
   text-align: center;
+  display: -webkit-inline-box;
+  justify-content: center;
 }
-
+.imglogo{
+ text-align: center;
+ display: initial;
+}
 
 nav li a {
   color: white;
@@ -177,9 +183,29 @@ perro h2 p {
   font-style: italic;
   text-align: center;
   width: 100%;
+  margin-top: -150px;
+}
+.boton{
+  border-color: black;
+  color: black;
+  background-color: white;
+  padding:10px;
+  font-weight: bold;
+  }
+.galeria{
+  width: 100%;
+  margin: auto;
+  display: inline-flex;
+}
+.galeria1{
+ text-align: left;
+ display: inline;
+
 }
 
- @media screen and (min-width: 360px) {
+
+
+ /* @media screen and (min-width: 360px) {
   nav ul {
     display: -webkit-inline-box;
     justify-content: center;
@@ -188,6 +214,12 @@ perro h2 p {
    text-align: center;
    display: initial;
  }
+
+ .galeria1 {
+  display: inline-block;
+  position: relative;
+  margin: 15px;
+}
 
   .centrado {
     position: absolute;
@@ -203,11 +235,22 @@ perro h2 p {
     position: absolute;
     margin-left: 60px;
   }
- 
+ .galeria{
+   margin: auto;
+   display: block;
+  
+ }
+  .oso,.maya,.wifi,.chocolate,.pexel,.bigotes,.luna{
+  
+  }
+  .galeria{
+    width: 100%;
+    margin: auto;
+    display: inline-flex;
+  }
+} */
 
-}
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   nav {
     background-color: rgb(102, 245, 197);
   }
@@ -237,6 +280,26 @@ perro h2 p {
   }
   .enlinea {
     text-align: center;
+  }
+  .centrado{
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    position: absolute;
+    margin-left: -10%; 
+    margin-top: -30%;
+    /* interlineado texto centro de imagen */
+    line-height: 4px;
+
+ 
+  }
+  .centrado>h2{
+    color: black;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: small;
   }
   .contenedorgrande {
     content: none;
@@ -272,7 +335,27 @@ perro h2 p {
   .linea {
     margin: 0px;
   }
+
+  .boton{
+    border-color: black;
+    color: black;
+    background-color: white;
+    padding:10px;
+    font-weight: bold;
+    }
+  .galeria{
+    width: 100%;
+    margin: auto;
+    display: inline-flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .galeria1{
+   
+  }
+  
   .footer {
     padding: 0px;
   } 
+
 } 
