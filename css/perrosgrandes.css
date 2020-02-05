@@ -14,6 +14,11 @@ body {
     margin-top: 100px;
     text-align: -webkit-center;
 }
+.texto1 {
+    display: flex;
+    font-family: inherit;
+    font-size: x-large;
+}
 
 /* MEDIA QUERYS */
 

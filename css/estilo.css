@@ -221,7 +221,8 @@ perro h2 p {
   width: 120px;
   margin: 1px;
   max-width: 120px;
-  margin: 10px;
+  margin: 3px;
+  height: 215px;
 }
 
 .oso {
