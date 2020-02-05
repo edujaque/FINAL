@@ -100,7 +100,6 @@ footer p {
 .fnldiv {
   background-color: white;
 }
-
 .perro {
   background-color: white;
   padding: 10px 10px;
@@ -226,10 +225,10 @@ perro h2 p {
   .wifi{
     height: 200px;
   }
-  .zoomoso{
+  /* .zoomoso{
     width: 100px;
     height: 100px;
-  }
+  } */
 
 
  /* @media screen and (min-width: 360px) {
@@ -275,7 +274,7 @@ perro h2 p {
   }
 } */
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1024px) {
   nav {
     /* background-color:#85D4B7; */
     background-color:#6DCCAA;
@@ -349,7 +348,7 @@ perro h2 p {
     display: contents;
   }
   .imgperro {
-    width: 60%;
+    width: 50%;
   }
   .imgcrow {
     width: 50%;
@@ -434,9 +433,9 @@ perro h2 p {
   height: 100px;
 } 
 
-.oso{
+/* .oso{
   width: 20px;
   height: 70px;
-}
+} */
 }
 
