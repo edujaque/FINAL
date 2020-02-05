@@ -1,0 +1,45 @@
+body {
+    display: block;
+    margin: auto;
+    
+    /* background-color:#85D4B7; */
+  }
+  .zoom1{
+  
+    width: 30%;
+    height: 30%;
+    text-align: justify;
+}
+
+.imagen1{
+ 
+    margin-top: 100px;
+    text-align:-webkit-center;
+    
+}
+
+
+/* MEDIA QUERYS */
+@media screen and (max-width: 1024px) {
+    .zoom1{
+  
+        width: 100%;
+        height: 50%;
+        text-align: justify;
+    }
+    
+    .texto1{
+       display: flex; 
+    }
+    
+    .imagen1{
+ 
+        margin-top: 100px;
+        text-align:-webkit-center;
+        
+    }
+    
+    
+    
+
+}
