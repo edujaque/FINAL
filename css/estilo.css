@@ -1,7 +1,10 @@
-*{
+body{
+   
+  display: block;
+    margin: auto;
+  background-color: rgb(102, 245, 197);
+      }
 
-
-}
 /*primero en el móvil (mobile first)*/
 nav{
     padding: 1em;
@@ -31,10 +34,7 @@ nav{
     background: tomato;
     color: white;
   }
-  body{
-    margin: 0 auto;
- 
-}
+
 .imgfondo{
     display: block;
     text-align: center;
@@ -43,7 +43,6 @@ nav{
     height: 400px;  
     margin-bottom: -30px;
     padding-bottom: 20px;
-    float: left;
 }
 .bajoimg{
     
@@ -84,7 +83,9 @@ padding-bottom:30px;
     display:block; 
    
     padding: 30px 10px;
-    border-left: 300px;
+    
+  display: block;
+  margin: auto;
    
 }
 
@@ -107,6 +108,45 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
 }
 
+.perro{
+    background-color: white;
+    padding:10px 10px;
+    display: inline-block;
+    float: left;
+    text-align: right;
+    /* border: 1px solid #4800ff; */
+    margin-bottom: 100px;
+    margin-top: -10px;
+    margin-left: 240px;
+   }
+   .crow{
+    background-color: white;
+    margin-right: 30px;
+    padding:10px 10px;
+    text-align: left;
+    display:inline-block;
+    margin: 20px;
+    /* border: 1px solid #4800ff; */
+    margin-right: 100px;
+    margin-left: 640px;
+    margin-top: -500px;
+    
+   }
+ 
+   perro h2 p{
+       font-style: italic;
+   }
+
+.perro h2,.crow h2{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.perro p, .crow p{
+font-size:15px;
+color:  rgba(0, 0, 0, 0.952);
+
+}
 .linea{
     border: black solid;
     width: 30px;
@@ -135,19 +175,14 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    
   }
   @media screen and (max-width: 768px) {
+  
     nav{
       background-color: rgb(102, 245, 197);
-    }
-
-    .body{
-margin-right: 0px;
-
     }
    .imgfondo{
        width:100%;
        height:200px;
        margin-bottom: 10px;
-       float: left;
    }
    .bajoimg,.bajoimg2{
        display: none;
@@ -166,30 +201,48 @@ margin-right: 0px;
      .enlinea{
         text-align: center;
   }
-}
-   
-  .row{
+  .contenedorgrande{
     content: none;
     display:block;
     clear: both; 
     background-color: white;
 }
-
-.colum_rescate1{
-    display: table block;
-    text-align: left;
-    padding: 10px;
-    vertical-align: top
-    }
-
-
-.colum_rescate2{
-    display: table block;
+.perro{
+    background-color: white;
+    float: left;
     text-align: right;
-    padding: 10px;
-    vertical-align: top
+    margin-bottom: 100px;
+    margin-top: -30px;
+    margin-left: 100px;
+    padding-right: 52px;
+    display:inherit;
+  
+   }
+   .imgperro{
+     width: 80%;
+ 
+   }
+   .imgcrow{
+    width: 50%;
+   }
+   .crow{
+    background-color: white;
+    margin-right: 30px;
+    padding:10px 10px;
+    text-align: left;
+    display:block;
+
+    margin: auto;
+    /* border: 1px solid #4800ff; */
+  
+    
+   }
+.linea{
+  margin: 0px;
 }
 
-.tamano{
-  width: 50%;
+.footer{
+  padding: 0px;
 }
+  }
+  
