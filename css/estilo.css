@@ -193,17 +193,41 @@ perro h2 p {
   font-weight: bold;
   }
 .galeria{
-  width: 100%;
-  margin: auto;
-  display: inline-flex;
+ display: flex;
+ margin-bottom: 10px;
+ margin-top: 10px;
+ margin-left: 5px;
+ margin-right: 5px;
+ overflow-x:scroll;
+ max-height: 148px;
+ vertical-align: auto;
+ 
+  
+ 
 }
-.galeria1{
- text-align: left;
- display: inline;
-
+.pexel{
+  height: 100%;
 }
+.galeria2{
+  display: table;
+ }
+ .galeria3{
+float: right;
+ }
 
 
+.galeria img{
+
+  margin:2px;
+  max-height: 107px;
+  display: inline;
+  margin: 1px;
+    width: 140px;
+    margin: 1px;
+    max-width: 100px;
+  }
+
+  
 
  /* @media screen and (min-width: 360px) {
   nav ul {
@@ -240,9 +264,7 @@ perro h2 p {
    display: block;
   
  }
-  .oso,.maya,.wifi,.chocolate,.pexel,.bigotes,.luna{
   
-  }
   .galeria{
     width: 100%;
     margin: auto;
@@ -343,17 +365,8 @@ perro h2 p {
     padding:10px;
     font-weight: bold;
     }
-  .galeria{
-    width: 100%;
-    margin: auto;
-    display: inline-flex;
-    margin-top: 10px;
-    margin-bottom: 20px;
-  }
-  .galeria1{
-   
-  }
-  
+
+    
   .footer {
     padding: 0px;
   } 
